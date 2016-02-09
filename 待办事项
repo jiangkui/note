@@ -1,2 +1,4 @@
 **遗留问题**
 - lru user cid 缓存。
+- 还差一个mysql 备份的脚本。
+- mysql count 慢的问题：explain 查看count，结果一个索引都没用上。三千万数据 将近一分钟了我擦 回头好好研究下。（ps 刚才把mysql 整体移动了下，可能因为是没索引的原因）
